@@ -1,2 +1,23 @@
+body{
+    background-image:url("../images/jaguar-xe.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
 
+.container-text {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+p h1 {
+    color: white;
+}
+
+button {
+    background-color: #DB3030;
+    display: inline;    
+    cursor: pointer;
+}
 
