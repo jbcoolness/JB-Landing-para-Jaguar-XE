@@ -1,3 +1,5 @@
+* {box-sizing: border-box; }
+
 body{
     background-image:url("../images/jaguar-xe.jpg");
     /* background-repeat: no-repeat; */
@@ -8,16 +10,26 @@ body{
 
 .container-text {
     max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
     
 }
-p h1 {
+p, h1 {
     color: white;
+    text-align: left;
+    margin: 15px;
+    padding: 15px 32px;
 }
 
-button {
+.button {
     background-color: #DB3030;
-    display: inline;    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
     cursor: pointer;
 }
 
